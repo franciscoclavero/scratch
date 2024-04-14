@@ -5,5 +5,10 @@ export class AppController {
   @Get('/root')
   getRootRoute() {
     return "Hello World!";
-  }    
+  }
+
+  @Get('/bye')
+  getByeRoute() {
+    return "Goodbye World!";
+  }
 }
